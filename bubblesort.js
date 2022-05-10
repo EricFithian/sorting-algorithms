@@ -20,8 +20,5 @@ function bubbleSort(arr){
     return arr;
 }
 
-// This is our unsorted array
-var arr = [-65, 243, 31, -25, 79, 0, -11, 299, 66];
-// First iteration 
-// Now pass this array to the bubbleSort() function
-bubbleSort(arr);
+// Now pass a test array to the bubbleSort() function
+bubbleSort([-65, 243, 31, -25, 79, 0, -11, 299, 66]);
